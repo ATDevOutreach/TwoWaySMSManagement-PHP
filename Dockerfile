@@ -21,6 +21,9 @@ RUN composer global require "laravel/lumen-installer"
 RUN mkdir /twoway
 WORKDIR /twoway
 
+#Create the Lumen App
+RUN lumen new twowaysms
+
 #Copy ussd app
 COPY . /twoway
 
