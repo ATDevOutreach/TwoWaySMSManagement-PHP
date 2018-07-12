@@ -1,19 +1,16 @@
 # Two Way SMS on AT
-#### Complete with dlr and responsesms endpoints
+#### Intro
 ##### The RESTful API
 We use the minimal [Lumen](https://lumen.laravel.com/docs/5.6) as a drop-in replacement for Laravel. We also make use of [HHVM](https://docs.hhvm.com/hhvm/installation/linux#ubuntu-16.04-xenial) instead of PHP 7.X as a matter of experimentation.<br>
 ##### The ORM for our Database
 [Medoo](https://medoo.in/) is  Light PHP Database framework that you can use with various databases for ORM work.
 ##### Database
 MariaDB is a fork of MySQL DB and is useable as a complete drop-in replacement.
-
-
-
-
-
-
-
-
+#### App Workflow
+We are building a 2 way SMS app running on Lumen Framework.
+1. A user sends an SMS to a shortcode 20414(replace with your code)
+2. The App receives a HTTP POST from Africa's Talkings API and dumps the POST to DB
+3. The App responds with an SMS to the Sender
 #### Composer Commands
 - Download the Lumen installer using Composer
 ````
