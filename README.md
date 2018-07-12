@@ -1,4 +1,4 @@
-# Two Way SMS on AT
+# Two Way SMS Management Using Africa's Talking API's
 ### INTRO
 ##### The RESTful API
 We use the minimal [Lumen](https://lumen.laravel.com/docs/5.6) as a drop-in replacement for Laravel. We also make use of [HHVM](https://docs.hhvm.com/hhvm/installation/linux#ubuntu-16.04-xenial) instead of PHP 7.X as a matter of experimentation.<br>
